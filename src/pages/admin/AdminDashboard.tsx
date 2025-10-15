@@ -1,25 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Users, 
-  Package, 
-  Truck, 
-  BarChart3, 
-  Settings, 
-  Bell, 
-  Search,
-  Plus,
-  Filter,
-  Download,
-  Eye,
-  Edit,
-  Trash2,
-  MapPin,
-  Clock,
-  CheckCircle,
-  AlertTriangle,
-  TrendingUp,
-  TrendingDown
-} from 'lucide-react';
+import { Users, Package, Truck, BarChart3, Settings, Bell, Search, Plus, Filter, Download, Eye, CreditCard as Edit, Trash2, MapPin, Clock, CheckCircle, AlertTriangle, TrendingUp, TrendingDown } from 'lucide-react';
 
 interface DashboardStats {
   totalShipments: number;
