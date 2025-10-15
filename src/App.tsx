@@ -15,6 +15,9 @@ import QuotePage from './pages/QuotePage';
 import BookingPage from './pages/BookingPage';
 import FleetPage from './pages/FleetPage';
 import NotFoundPage from './pages/NotFoundPage';
+import AdminLogin from './pages/admin/AdminLogin';
+import AdminDashboard from './pages/admin/AdminDashboard';
+import ProtectedRoute from './components/admin/ProtectedRoute';
 
 function App() {
   return (
@@ -33,6 +36,12 @@ function App() {
         <Route path="quote" element={<QuotePage />} />
         <Route path="booking" element={<BookingPage />} />
         <Route path="fleet" element={<FleetPage />} />
+        <Route path="admin/login" element={<AdminLogin />} />
+        <Route path="admin/dashboard" element={
+          <ProtectedRoute>
+            <AdminDashboard />
+          </ProtectedRoute>
+        } />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
