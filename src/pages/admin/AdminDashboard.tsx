@@ -24,6 +24,7 @@ import BlogManager from '../../components/admin/BlogManager';
 import TestimonialsManager from '../../components/admin/TestimonialsManager';
 import ContactInquiriesViewer from '../../components/admin/ContactInquiriesViewer';
 import QuoteRequestsViewer from '../../components/admin/QuoteRequestsViewer';
+import UsersManager from '../../components/admin/UsersManager';
 
 interface DashboardStats {
   totalShipments: number;
@@ -220,6 +221,7 @@ const AdminDashboard: React.FC = () => {
   const tabs = [
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'shipments', label: 'Shipments', icon: Package },
+    { id: 'users', label: 'Users', icon: Users },
     { id: 'blog', label: 'Blog', icon: FileText },
     { id: 'testimonials', label: 'Testimonials', icon: Star },
     { id: 'contact', label: 'Contact', icon: MessageSquare },
@@ -295,6 +297,7 @@ const AdminDashboard: React.FC = () => {
             <>
               {activeTab === 'dashboard' && renderDashboard()}
               {activeTab === 'shipments' && <ShipmentsManager />}
+              {activeTab === 'users' && <UsersManager />}
               {activeTab === 'blog' && <BlogManager />}
               {activeTab === 'testimonials' && <TestimonialsManager />}
               {activeTab === 'contact' && <ContactInquiriesViewer />}
