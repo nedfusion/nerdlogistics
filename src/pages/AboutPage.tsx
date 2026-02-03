@@ -159,18 +159,19 @@ const AboutPage: React.FC = () => {
         bgColor="bg-neutral-50"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="card overflow-hidden">
-            <div className="aspect-w-1 aspect-h-1">
+          <div className="card overflow-hidden group hover:shadow-xl transition-shadow duration-300">
+            <div className="relative overflow-hidden h-72">
               <img
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                src="/uko_chinedu.jpg"
                 alt="Mr. Uko Chinedu"
-                className="w-full h-64 object-cover"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Mr. Uko Chinedu</h3>
-              <p className="text-secondary-500 mb-4">Chief Executive Officer</p>
-              <p className="text-neutral-600 text-sm">
+            <div className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-1 text-primary-950">Mr. Uko Chinedu</h3>
+              <p className="text-secondary-500 font-semibold mb-3">Chief Executive Officer</p>
+              <p className="text-neutral-600 text-sm leading-relaxed">
                 Visionary founder and CEO with strong background in logistics, transportation management, and
                 business strategy. Leads with focus on operational excellence, technological innovation, and
                 customer satisfaction.
@@ -178,36 +179,38 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="card overflow-hidden">
-            <div className="aspect-w-1 aspect-h-1">
+          <div className="card overflow-hidden group hover:shadow-xl transition-shadow duration-300">
+            <div className="relative overflow-hidden h-72">
               <img
-                src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                src="/isaac_eke.jpg"
                 alt="Mr. Isaac Eke"
-                className="w-full h-64 object-cover"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Mr. Isaac Eke</h3>
-              <p className="text-secondary-500 mb-4">Chief Operations Officer</p>
-              <p className="text-neutral-600 text-sm">
+            <div className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-1 text-primary-950">Mr. Isaac Eke</h3>
+              <p className="text-secondary-500 font-semibold mb-3">Chief Operations Officer</p>
+              <p className="text-neutral-600 text-sm leading-relaxed">
                 Oversees operations ensuring seamless movement of goods across regions. Manages fleet performance,
                 route planning, operational staff, and service quality with wealth of experience in fleet management.
               </p>
             </div>
           </div>
 
-          <div className="card overflow-hidden">
-            <div className="aspect-w-1 aspect-h-1">
+          <div className="card overflow-hidden group hover:shadow-xl transition-shadow duration-300">
+            <div className="relative overflow-hidden h-72">
               <img
-                src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                src="/uko_iheanyi.jpg"
                 alt="Engr. Uko Iheanyi"
-                className="w-full h-64 object-cover"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Engr. Uko Iheanyi</h3>
-              <p className="text-secondary-500 mb-4">Chief Technology Officer</p>
-              <p className="text-neutral-600 text-sm">
+            <div className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-1 text-primary-950">Engr. Uko Iheanyi</h3>
+              <p className="text-secondary-500 font-semibold mb-3">Chief Technology Officer</p>
+              <p className="text-neutral-600 text-sm leading-relaxed">
                 Responsible for all technological initiatives including fleet tracking systems, digital platforms,
                 and internal software management. Leads digital transformation ensuring cutting-edge technology
                 powers operations.
@@ -215,18 +218,19 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="card overflow-hidden">
-            <div className="aspect-w-1 aspect-h-1">
+          <div className="card overflow-hidden group hover:shadow-xl transition-shadow duration-300">
+            <div className="relative overflow-hidden h-72">
               <img
-                src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                src="/stellamaris_ogonna.jpg"
                 alt="Miss Stellamaris Ogonna Chukwu"
-                className="w-full h-64 object-cover"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Miss Stellamaris Ogonna Chukwu</h3>
-              <p className="text-secondary-500 mb-4">General Manager</p>
-              <p className="text-neutral-600 text-sm">
+            <div className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-1 text-primary-950">Miss Stellamaris Ogonna Chukwu</h3>
+              <p className="text-secondary-500 font-semibold mb-3">General Manager</p>
+              <p className="text-neutral-600 text-sm leading-relaxed">
                 Handles day-to-day administrative and business functions. Oversees sales, customer relations, and
                 operational support, ensuring smooth coordination between departments to deliver high-quality services.
               </p>
