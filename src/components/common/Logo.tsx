@@ -9,7 +9,7 @@ const Logo: React.FC<LogoProps> = ({ className = '' }) => {
   return (
     <div className={`flex items-center ${className}`}>
       <img
-        src="/NERD (1).png"
+        src="/nerd-logo.png"
         alt="Nerd Logistics - Professional Logistics and Transportation Services"
         className="h-20 w-auto object-contain"
       />
