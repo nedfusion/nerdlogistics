@@ -22,26 +22,27 @@ const AboutPage: React.FC = () => {
       <Section bgColor="bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+            <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-neutral-700 mb-4">
-              Nerd Logistics was founded in 2015 with a vision to transform Nigeria's logistics landscape. 
-              What began as a small operation with just three trucks in Lagos has grown into one of the 
-              country's most trusted logistics providers.
+              Nerd Logistics is a premium logistics and haulage Services Company committed to providing efficient,
+              reliable, and secure transportation solutions across Nigeria and West Africa. We specialize in the
+              movement of goods and cargo for businesses and individuals, utilizing a modern fleet of high-capacity
+              trucks, cutting-edge technology, and a professional team to ensure timely and safe deliveries.
             </p>
             <p className="text-neutral-700 mb-4">
-              Our journey has been defined by a commitment to reliability, innovation, and customer satisfaction. 
-              We've continuously invested in our fleet, technology, and people to ensure we deliver the highest 
-              quality service to our clients.
+              At Nerd Logistics, we don't just move goods — we move businesses forward by offering tailored logistics
+              solutions that help our clients achieve operational efficiency and customer satisfaction.
             </p>
             <p className="text-neutral-700">
-              Today, we operate across all 36 states in Nigeria, with a modern fleet of over 500 vehicles and 
-              a team of experienced professionals dedicated to moving your cargo safely and efficiently.
+              Our clients include manufacturers, agricultural businesses, retailers, importers/exporters, and government
+              agencies. We serve industries such as Fast-Moving Consumer Goods (FMCG), Agriculture, Construction and
+              Building Materials, Energy and Oil & Gas, and E-commerce and Retail Distribution.
             </p>
           </div>
           <div>
-            <img 
-              src="https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
-              alt="Company history" 
+            <img
+              src="https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+              alt="Company history"
               className="rounded-lg shadow-lg"
             />
           </div>
@@ -58,11 +59,24 @@ const AboutPage: React.FC = () => {
               </div>
               Our Mission
             </h3>
-            <p className="text-neutral-700">
-              To provide reliable, efficient, and innovative logistics solutions that empower businesses 
-              across Nigeria to thrive in an increasingly connected economy. We are committed to delivering 
-              excellence in every shipment while maintaining the highest standards of safety and customer service.
-            </p>
+            <ul className="text-neutral-700 space-y-3">
+              <li className="flex items-start">
+                <CheckCircle className="text-primary-950 mr-2 mt-1 flex-shrink-0" size={20} />
+                <span>To deliver high-quality, timely, and cost-effective logistics and haulage services.</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="text-primary-950 mr-2 mt-1 flex-shrink-0" size={20} />
+                <span>To leverage technology to simplify supply chain processes.</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="text-primary-950 mr-2 mt-1 flex-shrink-0" size={20} />
+                <span>To build long-term relationships with clients based on trust, professionalism, and integrity.</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="text-primary-950 mr-2 mt-1 flex-shrink-0" size={20} />
+                <span>To foster economic growth by connecting businesses with markets efficiently.</span>
+              </li>
+            </ul>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-card">
             <h3 className="text-2xl font-bold mb-4 flex items-center">
@@ -72,120 +86,149 @@ const AboutPage: React.FC = () => {
               Our Vision
             </h3>
             <p className="text-neutral-700">
-              To be the undisputed leader in logistics and freight services in West Africa, known for our 
-              reliability, innovation, and commitment to customer success. We aim to set new standards in 
-              the industry through sustainable practices, technological advancement, and operational excellence.
+              To be the most trusted and innovative logistics partner in Africa, providing seamless freight and
+              haulage solutions through technology-driven processes and customer-centric services.
             </p>
           </div>
         </div>
       </Section>
 
       {/* Core Values */}
-      <Section 
-        title="Our Core Values" 
+      <Section
+        title="Our Core Values"
         subtitle="These principles guide everything we do at Nerd Logistics."
         bgColor="bg-white"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="bg-primary-50 p-6 rounded-lg">
-            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-              <CheckCircle size={24} />
-            </div>
-            <h3 className="text-xl font-semibold mb-3">Reliability</h3>
-            <p className="text-neutral-700">
-              We deliver on our promises, ensuring consistent and dependable service that our clients can count on.
-            </p>
-          </div>
-          
-          <div className="bg-primary-50 p-6 rounded-lg">
-            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-              <CheckCircle size={24} />
-            </div>
-            <h3 className="text-xl font-semibold mb-3">Safety</h3>
-            <p className="text-neutral-700">
-              We prioritize the safety of our team, our clients' cargo, and the communities we serve.
-            </p>
-          </div>
-          
-          <div className="bg-primary-50 p-6 rounded-lg">
-            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-              <CheckCircle size={24} />
-            </div>
-            <h3 className="text-xl font-semibold mb-3">Innovation</h3>
-            <p className="text-neutral-700">
-              We continuously seek better ways to serve our clients through technology and process improvements.
-            </p>
-          </div>
-          
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           <div className="bg-primary-50 p-6 rounded-lg">
             <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
               <CheckCircle size={24} />
             </div>
             <h3 className="text-xl font-semibold mb-3">Integrity</h3>
             <p className="text-neutral-700">
-              We conduct our business with honesty and transparency, building trust with every interaction.
+              We operate with honesty and transparency in all our dealings.
+            </p>
+          </div>
+
+          <div className="bg-primary-50 p-6 rounded-lg">
+            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+              <CheckCircle size={24} />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Reliability</h3>
+            <p className="text-neutral-700">
+              You can count on us to deliver on time, every time.
+            </p>
+          </div>
+
+          <div className="bg-primary-50 p-6 rounded-lg">
+            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+              <CheckCircle size={24} />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Innovation</h3>
+            <p className="text-neutral-700">
+              We use modern tools and technology to optimize our services.
+            </p>
+          </div>
+
+          <div className="bg-primary-50 p-6 rounded-lg">
+            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+              <CheckCircle size={24} />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Customer Commitment</h3>
+            <p className="text-neutral-700">
+              We put our clients first and work tirelessly to exceed their expectations.
+            </p>
+          </div>
+
+          <div className="bg-primary-50 p-6 rounded-lg">
+            <div className="bg-primary-950 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+              <CheckCircle size={24} />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Safety</h3>
+            <p className="text-neutral-700">
+              We prioritize the safety of goods, people, and the environment.
             </p>
           </div>
         </div>
       </Section>
 
       {/* Leadership Team */}
-      <Section 
-        title="Our Leadership Team" 
+      <Section
+        title="Executive Leadership Team"
         subtitle="Meet the experienced professionals who drive our success."
         bgColor="bg-neutral-50"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="card overflow-hidden">
             <div className="aspect-w-1 aspect-h-1">
-              <img 
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
-                alt="Oluwaseun Adeyemi" 
+              <img
+                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                alt="Mr. Uko Chinedu"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Oluwaseun Adeyemi</h3>
+              <h3 className="text-xl font-semibold mb-1">Mr. Uko Chinedu</h3>
               <p className="text-secondary-500 mb-4">Chief Executive Officer</p>
-              <p className="text-neutral-600">
-                With over 15 years in logistics and supply chain management, Oluwaseun has led Nerd Logistics 
-                to become one of Nigeria's most trusted freight providers.
+              <p className="text-neutral-600 text-sm">
+                Visionary founder and CEO with strong background in logistics, transportation management, and
+                business strategy. Leads with focus on operational excellence, technological innovation, and
+                customer satisfaction.
               </p>
             </div>
           </div>
-          
+
           <div className="card overflow-hidden">
             <div className="aspect-w-1 aspect-h-1">
-              <img 
-                src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
-                alt="Ngozi Okonkwo" 
+              <img
+                src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                alt="Mr. Isaac Eke"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Ngozi Okonkwo</h3>
+              <h3 className="text-xl font-semibold mb-1">Mr. Isaac Eke</h3>
               <p className="text-secondary-500 mb-4">Chief Operations Officer</p>
-              <p className="text-neutral-600">
-                Ngozi oversees our nationwide operations, ensuring seamless coordination between our fleet, 
-                warehousing, and customer service teams.
+              <p className="text-neutral-600 text-sm">
+                Oversees operations ensuring seamless movement of goods across regions. Manages fleet performance,
+                route planning, operational staff, and service quality with wealth of experience in fleet management.
               </p>
             </div>
           </div>
-          
+
           <div className="card overflow-hidden">
             <div className="aspect-w-1 aspect-h-1">
-              <img 
-                src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
-                alt="Ibrahim Garba" 
+              <img
+                src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                alt="Engr. Uko Iheanyi"
                 className="w-full h-64 object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-1">Ibrahim Garba</h3>
-              <p className="text-secondary-500 mb-4">Technology Director</p>
-              <p className="text-neutral-600">
-                Ibrahim leads our technological initiatives, including our real-time tracking system and 
-                digital transformation efforts.
+              <h3 className="text-xl font-semibold mb-1">Engr. Uko Iheanyi</h3>
+              <p className="text-secondary-500 mb-4">Chief Technology Officer</p>
+              <p className="text-neutral-600 text-sm">
+                Responsible for all technological initiatives including fleet tracking systems, digital platforms,
+                and internal software management. Leads digital transformation ensuring cutting-edge technology
+                powers operations.
+              </p>
+            </div>
+          </div>
+
+          <div className="card overflow-hidden">
+            <div className="aspect-w-1 aspect-h-1">
+              <img
+                src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                alt="Miss Stellamaris Ogonna Chukwu"
+                className="w-full h-64 object-cover"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-1">Miss Stellamaris Ogonna Chukwu</h3>
+              <p className="text-secondary-500 mb-4">General Manager</p>
+              <p className="text-neutral-600 text-sm">
+                Handles day-to-day administrative and business functions. Oversees sales, customer relations, and
+                operational support, ensuring smooth coordination between departments to deliver high-quality services.
               </p>
             </div>
           </div>

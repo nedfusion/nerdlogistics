@@ -96,15 +96,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="text-secondary-500 flex-shrink-0 mt-1" size={18} />
-                <span className="text-neutral-300">Harmony Court Estate Afric Road Iporin, Surulere</span>
+                <span className="text-neutral-300">Harmony Court Estate, Afric Road Iporin</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-secondary-500 flex-shrink-0" size={18} />
-                <a href="tel:+2348064189445" className="text-neutral-300 hover:text-white transition-colors">+234 806 418 9445</a>
+                <a href="tel:+2348064189445" className="text-neutral-300 hover:text-white transition-colors">08064189445</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-secondary-500 flex-shrink-0" size={18} />
-                <a href="mailto:infor@nerdlogistics.net" className="text-neutral-300 hover:text-white transition-colors">infor@nerdlogistics.net</a>
+                <a href="mailto:info@nerdlogistics.net" className="text-neutral-300 hover:text-white transition-colors">info@nerdlogistics.net</a>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="text-secondary-500 flex-shrink-0" size={18} />

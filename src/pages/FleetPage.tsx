@@ -73,111 +73,47 @@ const VehicleCard: React.FC<VehicleCardProps> = ({
 const FleetPage: React.FC = () => {
   const vehicles = [
     {
-      name: 'Light Delivery Van',
-      image: 'https://images.pexels.com/photos/5025524/pexels-photo-5025524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '1-2 tons',
-      dimensions: '4m x 2m x 2m',
-      features: [
-        'Fuel-efficient engines',
-        'GPS tracking system',
-        'Easy urban maneuverability',
-        'Climate-controlled cargo area'
-      ],
-      useCases: [
-        'Urban deliveries',
-        'Last-mile logistics',
-        'E-commerce fulfillment',
-        'Courier services'
-      ]
-    },
-    {
-      name: 'Medium Duty Truck',
+      name: '30-Tonne Heavy Duty Truck',
       image: 'https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '5-10 tons',
-      dimensions: '7m x 2.5m x 2.8m',
-      features: [
-        'Reinforced cargo bed',
-        'Hydraulic lift gate',
-        'Advanced security system',
-        'Extended range fuel tanks'
-      ],
-      useCases: [
-        'Regional distribution',
-        'Retail store replenishment',
-        'Construction materials',
-        'Manufacturing goods'
-      ]
-    },
-    {
-      name: 'Heavy-Duty Truck',
-      image: 'https://images.pexels.com/photos/93398/pexels-photo-93398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '15-30 tons',
+      capacity: '30 tonnes',
       dimensions: '12m x 2.6m x 3m',
       features: [
+        'GPS tracking system',
+        'Real-time monitoring',
         'High-torque diesel engines',
         'Air ride suspension',
-        'Driver comfort features',
-        'Enhanced braking systems'
+        'Enhanced braking systems',
+        'Regular maintenance schedule'
       ],
       useCases: [
-        'Long-haul transport',
-        'Bulk goods movement',
+        'Interstate freight',
+        'Bulk goods transport',
+        'Manufacturing products',
+        'FMCG distribution',
+        'Agricultural products',
+        'Construction materials'
+      ]
+    },
+    {
+      name: '45-Tonne Extra Heavy Duty Truck',
+      image: 'https://images.pexels.com/photos/93398/pexels-photo-93398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+      capacity: '45 tonnes',
+      dimensions: '13.6m x 2.6m x 3m',
+      features: [
+        'GPS tracking system',
+        'Route optimization software',
+        'Advanced safety features',
+        'Driver comfort technology',
+        'Extended range fuel tanks',
+        'Maximum payload capacity'
+      ],
+      useCases: [
+        'Long-haul freight',
+        'Cross-border haulage',
+        'Heavy bulk materials',
         'Industrial equipment',
-        'Intercity freight'
-      ]
-    },
-    {
-      name: 'Refrigerated Truck',
-      image: 'https://images.pexels.com/photos/2760242/pexels-photo-2760242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '5-15 tons',
-      dimensions: '8m x 2.5m x 3m',
-      features: [
-        'Temperature control (-25°C to +25°C)',
-        'Temperature monitoring system',
-        'Insulated cargo compartment',
-        'Backup power systems'
-      ],
-      useCases: [
-        'Perishable goods',
-        'Pharmaceutical products',
-        'Frozen foods',
-        'Temperature-sensitive materials'
-      ]
-    },
-    {
-      name: 'Flatbed Truck',
-      image: 'https://images.pexels.com/photos/2996322/pexels-photo-2996322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '10-25 tons',
-      dimensions: '12m x 2.5m x 1.5m',
-      features: [
-        'Reinforced flatbed platform',
-        'Multiple tie-down points',
-        'Optional side rails',
-        'Heavy-duty winch systems'
-      ],
-      useCases: [
-        'Construction equipment',
-        'Steel and metal products',
-        'Machinery transport',
-        'Oversized loads'
-      ]
-    },
-    {
-      name: 'Tanker Truck',
-      image: 'https://images.pexels.com/photos/2909532/pexels-photo-2909532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-      capacity: '15-30,000 liters',
-      dimensions: '10m x 2.5m x 3.5m',
-      features: [
-        'Stainless steel tanks',
-        'Multiple compartment options',
-        'Advanced pumping systems',
-        'Safety pressure valves'
-      ],
-      useCases: [
-        'Liquid transport',
-        'Fuel delivery',
-        'Chemical transport',
-        'Bulk liquids'
+        'Large-scale distribution',
+        'Contract haulage operations'
       ]
     },
   ];

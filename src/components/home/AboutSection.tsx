@@ -5,10 +5,10 @@ import Section from '../common/Section';
 
 const AboutSection: React.FC = () => {
   const achievements = [
-    { value: '36+', label: 'States Covered' },
-    { value: '1000+', label: 'Happy Clients' },
-    { value: '500+', label: 'Vehicles' },
-    { value: '24/7', label: 'Customer Support' },
+    { value: 'Nigeria', label: 'Nationwide' },
+    { value: 'West Africa', label: 'Coverage' },
+    { value: '30-45T', label: 'Truck Fleet' },
+    { value: '24/7', label: 'Support' },
   ];
 
   return (
@@ -33,39 +33,45 @@ const AboutSection: React.FC = () => {
         </div>
 
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Nigeria's Most Trusted Logistics & Freight Partner</h2>
-          
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Premium Logistics & Haulage Services Across Nigeria</h2>
+
           <p className="text-neutral-700 mb-6">
-            At Nerd Logistics, we combine industry expertise with cutting-edge technology to provide reliable, efficient, and secure logistics solutions. With over 10 years of experience, we've built a reputation for excellence in the transport and logistics sector.
+            Nerd Logistics is a premium logistics and haulage Services Company committed to providing efficient,
+            reliable, and secure transportation solutions across Nigeria and West Africa. We don't just move goods —
+            we move businesses forward by offering tailored logistics solutions that help our clients achieve
+            operational efficiency and customer satisfaction.
           </p>
-          
+
           <div className="space-y-4 mb-8">
             <div className="flex gap-3">
               <CheckCircle className="text-secondary-500 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h3 className="font-semibold text-lg mb-1">Modern Fleet</h3>
+                <h3 className="font-semibold text-lg mb-1">Modern Fleet with GPS Tracking</h3>
                 <p className="text-neutral-600">
-                  Our extensive fleet of well-maintained vehicles ensures we can handle any logistics challenge.
+                  30-tonne and 45-tonne trucks equipped with GPS tracking and route optimization software for
+                  real-time monitoring and maximum efficiency.
                 </p>
               </div>
             </div>
-            
+
             <div className="flex gap-3">
               <CheckCircle className="text-secondary-500 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h3 className="font-semibold text-lg mb-1">Experienced Team</h3>
+                <h3 className="font-semibold text-lg mb-1">Technology-Driven Operations</h3>
                 <p className="text-neutral-600">
-                  Our professional drivers and logistics experts bring years of industry knowledge to every delivery.
+                  Real-time tracking, digital proof of delivery, automated invoicing, and 24/7 customer service
+                  portal powered by cutting-edge technology.
                 </p>
               </div>
             </div>
-            
+
             <div className="flex gap-3">
               <CheckCircle className="text-secondary-500 flex-shrink-0 mt-1" size={20} />
               <div>
-                <h3 className="font-semibold text-lg mb-1">Nationwide Network</h3>
+                <h3 className="font-semibold text-lg mb-1">Nationwide & Cross-Border Coverage</h3>
                 <p className="text-neutral-600">
-                  With operations spanning all 36 Nigerian states, we offer true nationwide coverage.
+                  Comprehensive coverage across Nigeria and West Africa, serving FMCG, agriculture, construction,
+                  energy, and e-commerce sectors.
                 </p>
               </div>
             </div>

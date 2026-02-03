@@ -6,24 +6,10 @@ import ContactForm from '../components/common/ContactForm';
 const ContactPage: React.FC = () => {
   const officeLocations = [
     {
-      city: 'Lagos (Headquarters)',
-      address: '123 Logistics Way, Lekki, Lagos',
-      phone: '+234 901 234 5678',
-      email: 'lagos@nerdlogistics.com',
-      hours: 'Mon-Fri: 8:00 AM - 6:00 PM',
-    },
-    {
-      city: 'Abuja',
-      address: '45 Capital Boulevard, Central District, Abuja',
-      phone: '+234 902 345 6789',
-      email: 'abuja@nerdlogistics.com',
-      hours: 'Mon-Fri: 8:00 AM - 6:00 PM',
-    },
-    {
-      city: 'Port Harcourt',
-      address: '78 Riverside Road, GRA Phase 2, Port Harcourt',
-      phone: '+234 903 456 7890',
-      email: 'portharcourt@nerdlogistics.com',
+      city: 'Headquarters',
+      address: 'Harmony Court Estate, Afric Road Iporin',
+      phone: '08064189445',
+      email: 'info@nerdlogistics.net',
       hours: 'Mon-Fri: 8:00 AM - 6:00 PM',
     },
   ];
@@ -62,11 +48,11 @@ const ContactPage: React.FC = () => {
                   <h3 className="text-lg font-semibold mb-1">Phone Support</h3>
                   <p className="text-neutral-700">24/7 Customer Service</p>
                   <a href="tel:+2348064189445" className="text-primary-950 font-medium hover:text-primary-700">
-                    +234 806 418 9445
+                    08064189445
                   </a>
                 </div>
               </div>
-              
+
               <div className="flex gap-4">
                 <div className="bg-primary-50 p-3 rounded-full text-primary-950">
                   <Mail size={24} />
@@ -74,8 +60,8 @@ const ContactPage: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Email</h3>
                   <p className="text-neutral-700">For Inquiries & Support</p>
-                  <a href="mailto:infor@nerdlogistics.net" className="text-primary-950 font-medium hover:text-primary-700">
-                    infor@nerdlogistics.net
+                  <a href="mailto:info@nerdlogistics.net" className="text-primary-950 font-medium hover:text-primary-700">
+                    info@nerdlogistics.net
                   </a>
                 </div>
               </div>
